@@ -414,7 +414,7 @@ treeJSON = d3.json("flare.json", function(error, treeData) {
             .attr('class', 'nodeCircle')
             .attr("r", 0)
             .style("fill", function(d) {
-                return d._children ? "green" : "#fff";
+                return d._children ? "green" : "orange";
             });
 
         nodeEnter.append("text")
