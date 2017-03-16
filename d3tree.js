@@ -461,7 +461,7 @@ treeJSON = d3.json("flare.json", function(error, treeData) {
         node.select("circle.nodeCircle")
             .attr("r", 4.5)
             .style("fill", function(d) {
-                return d._children ? "#ff0000" : "yellow";
+                return d._children ? "#ff0000" : "gold";
             });
 
         // Transition nodes to their new position.
