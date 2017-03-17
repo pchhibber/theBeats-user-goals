@@ -4,7 +4,7 @@
         "name": "DMC Agent",
         "children": [{
             "name": "Create quotes based on requests",
-	    "goodness": 1
+	    "goodness": 1,
             "children": [{
                 "name": "Follow up on queries from Travel Agents",
                 "size": 10,
