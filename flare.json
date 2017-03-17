@@ -4,15 +4,19 @@
         "name": "DMC Agent",
         "children": [{
             "name": "Create quotes based on requests",
+	    "goodness": 1
             "children": [{
                 "name": "Follow up on queries from Travel Agents",
-                "size": 10
+                "size": 10,
+	        "goodness": 1
             }, {
                 "name": "Respond to queries from Travel Agents",
-                "size": 10
+                "size": 10,
+		"goodness": 1
             }, {
                 "name": "Make amendments to quotes being built",
-                "size": 10
+                "size": 10,
+		"goodness": 1
             }]
         }, {
             "name": "Ensure relevant products are offered to Travel Agents",
