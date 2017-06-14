@@ -1,0 +1,13 @@
+{
+  "name": "theBeats-user-goals",
+  "authors": [
+      "SAURABH KAMBLE"
+  ],
+  "dependencies": {    
+    "polymer": "Polymer/polymer#^1.6.0",
+    "atom-user-goals-visualization": "git://github.com/makedatabetter-dev/atom-user-goals-visualization.git"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  }
+}
